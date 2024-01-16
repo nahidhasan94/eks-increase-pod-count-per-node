@@ -26,5 +26,6 @@ set -o xtrace
 sudo /etc/eks/bootstrap.sh CLUSTER_NAME --use-max-pods false --kubelet-extra-args '--max-pods=110's
 --569cf6b9fd8fc55eb154ed4109442d086eac9082ff292a37a3b3cd88bfb6--
 ```
-4. Use that launch tempalte while creating a node group in the EKS cluster. /n
+4. Use that launch tempalte while creating a node group in the EKS cluster. 
+
 Choose Add node group -> Configure node group -> Use launch template
