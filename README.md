@@ -1,6 +1,6 @@
 # eks-increase-pod-count-per-node
 
-1. Create a EKS cluster
+1. Create an EKS cluster
 2. Run those commands to update cluster cni config
 
 ```
